@@ -15,6 +15,7 @@ public class Produto {
 		this.nome = nome;
 		this.quant = quantidade;
 		this.preco = preco;
+		 
 	}
 
 	public String getName() {
@@ -39,6 +40,7 @@ public class Produto {
 
 	public void setQuant(int quantidade) {
 		this.quant = quantidade;
+		
 	}
 	
 
