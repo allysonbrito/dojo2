@@ -25,6 +25,8 @@ public class Main {
 				nome = in.next();
 				System.out.println("Quantidade do produto:");
 				quantidade = in.nextInt();
+				
+					
 				System.out.println("Preco unitario: ");
 				preco = in.nextFloat();
 				Produto p = new Produto(nome, quantidade, preco);
@@ -62,6 +64,8 @@ public class Main {
 				} else {
 					System.out.println("Produto" + nomeProduto + "não encontado");
 				}
+			case 5:
+				System.exit(0);
 				break;
 			}
 		}
