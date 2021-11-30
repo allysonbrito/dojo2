@@ -12,13 +12,12 @@ public class Loja {
 	}
 	
 	public void addProduto (Produto produto) {
-		
-		if ( this.Quantidade() < 1 ) {
-			throw new IllegalArgumentException();
-		} 
-		
-		
-		this.produtos.add(produto);
+			if ( produto.getQuant() < 1 ) {
+				throw new IllegalArgumentException();
+				} 
+			else {
+				this.produtos.add(produto);
+			}
 	}
 	
 	public boolean RemoveProduto(String nomeProduto) {
